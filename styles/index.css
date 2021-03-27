@@ -1,0 +1,284 @@
+html,body{
+    margin: 0;
+    background-color: #1e86b5;
+}
+
+
+*{
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.body{
+    margin-left: 40px;
+    padding: 30px;
+    background-color: white;
+    min-height: 100vh;
+}
+.w-100{
+    width: 100%;
+}
+
+
+
+.w-100 .left-element .image-container{
+    max-width: 350px;
+    padding: 4px;
+    border: solid 4px #1e86b5;
+    height: fit-content;
+}
+.w-100 .left-element .image-container img{
+    width: 100%;
+}
+
+.name-title{
+    background-color: #1e86b5;
+    height: fit-content;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 0;
+}
+.name-title h1{
+    padding: 10px 20px 0 20px;
+    margin-top: 0;
+}
+
+.contact-element .contact-text{
+    padding: 10px 0;
+}
+
+.contact-element .contact-icon img{
+    height: 30px;
+    padding: 0 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-element{
+    padding: 5px;
+}
+
+.top-text table  th{
+    text-align: left;
+}
+
+.top-text table td{
+   padding: 10px 0;
+}
+
+.parascolaire-table table td{
+    padding: 5px;
+    text-align: center;
+}
+
+.socials{
+    padding: 20px;
+}
+
+.social-icon img{
+    height: 30px;
+    padding: 0 10px;
+}
+
+.social-element{
+    padding: 10px 0;
+}
+
+.competence-table th{
+    color: #1e86b5;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+.competence-table td{
+    padding-bottom: 20px;
+}
+
+.centres .disp-flex .f-1{
+    text-align: center;
+}
+
+.edu-element{
+    position: relative;
+}
+
+.edication-list{
+    padding: 20px 0;
+}
+
+.edu-element:after{
+    content: '';
+    left: -2.5px;
+    top: 1rem;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background-color:#1e86b5;
+}
+
+
+
+
+
+
+
+
+.padd-or:before{
+    content: '';
+    background-color: #ffb428;
+    left: 0;
+    top: 1rem;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 10;
+
+}
+
+.padd{
+    margin: 0 10%;
+    padding: 0 5%;
+    position: relative;
+}
+.padd-or{
+    margin: 0 10%;
+    padding: 0 5%;
+    position: relative;
+}
+
+.padd:before{
+    content: '';
+    background-color: #c8c8c8;
+    left: 0;
+    top: 1rem;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+
+.align-v-center{
+    align-self: center;
+}
+
+.h-fit{
+    height: fit-content;
+}
+
+.disp-flex{
+    display: flex;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.underline{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.underline:after {
+    content:'';
+    position:absolute;
+    bottom:-5px;
+    left:10%;
+    right:10%;
+    background:#1e86b5;
+    height:4px;
+    border-radius:20px;
+}
+
+.underline h2{
+   margin-bottom: 5px;
+}
+
+.padd-or:hover{
+    background-color: rgba(215, 215, 215,0.3);
+}
+.padd-or:hover .open{
+    display: block;
+}
+
+
+.open{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(133, 133, 133, 0.3);
+    right: 0;
+}
+.open .center{
+    position: absolute;
+    top: 50%;
+    left:50%;
+
+    transform: translate(-50%,-50%);
+}
+.oppen{
+    background-color: #1e86b5;
+    color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    z-index: 20;
+
+}
+
+.disabled{
+    background-color: #d4d4d4;
+    color: #8f8f8f;
+    cursor: not-allowed;
+}
+.disabled:hover{
+    background-color: #d4d4d4!important;
+    color: #8f8f8f!important;
+    border:solid 1px red!important;
+}
+.oppen:hover{
+    background-color: white;
+    color: #1e86b5;
+    border: solid 1px #1e86b5;
+}
+.edu-element a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.floater{
+    float: right;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.f-1{
+    flex: 1;
+}
+
+.f-2{
+    flex: 2;
+}
+
+.pad-1{
+    padding: 20px;
+}
+
+.mlr-1{
+    margin: 0 50px;
+}
+
+.disp-block{
+    display: block;
+}
