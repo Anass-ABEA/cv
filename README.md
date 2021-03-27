@@ -13,3 +13,7 @@ ensuite la commande
 pour installer le serveur local puis executez la commande 
 
 ``npm start``
+
+#Essai
+Vous pouvez aussi accéder au site ici : 
+https://thexcoders.net/techno_web/
